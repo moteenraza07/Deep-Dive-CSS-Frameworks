@@ -1,0 +1,106 @@
+:root {
+  --main-color: #db8d34;
+  --seconday-color: #3d7fdc;
+  --font-size-large: 34px;
+  --font-size-medium: 28px;
+  --font-size-small: 22px;
+  --main-font: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--seconday-color);
+  font-family: var(--main-font);
+}
+
+header {
+  position: fixed;
+  background-color: var(--main-color);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  border: 2px solid black;
+  font-family: var();
+}
+
+h1 {
+  font-size: var(--font-size-large);
+}
+
+section {
+  padding: 20px;
+  color: cornsilk;
+  font-size: var(--font-size-small);
+}
+
+.intro {
+  border: 3px solid #db8d34;
+  background-color: black;
+  margin-top: 170px;
+  text-align: center;
+  width: 90%;
+  margin-left: 70px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: var(--font-size-medium);
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background-color: black;
+  padding: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: coral;
+  padding: 15px;
+  text-align: center;
+}
+
+.relative-container {
+  position: relative;
+  background-color: dimgray;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 8px;
+}
+
+.absolute-box p {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #db8d34;
+  position: relative;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-top: 20px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
